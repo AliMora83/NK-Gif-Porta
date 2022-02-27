@@ -75,7 +75,9 @@
   width: 100%;
   bottom: 0;
   left: 0;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  background: black;
 }
 
 .twitter-logo {
@@ -91,10 +93,10 @@
 
 .gif-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   grid-gap: 1.5rem;
   justify-items: center;
-  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
 }
 
